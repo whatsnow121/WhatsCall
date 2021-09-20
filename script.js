@@ -1,6 +1,6 @@
 // Generate random room name if needed
 if (!location.hash) {
-  location.hash = Math.floor(Math.random() * 0xFFFFFFFFFFFFF).toString(16);
+  location.hash = Math.floor(Math.random() * 0xFFFFFFFFFFFFF).toString(16) + 'AppyFreeVideoCall';
 }
 const roomHash = location.hash.substring(1);
   
