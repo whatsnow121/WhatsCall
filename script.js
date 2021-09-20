@@ -3,7 +3,6 @@ if (!location.hash) {
   location.hash = Math.floor(Math.random() * 0xFFFFFFFFFFFFF).toString(16) + 'AppyFreeVideoCall';
 }
 const roomHash = location.hash.substring(1);
-var hash = location.hash.substring(1);
 // TODO: Replace with your own channel ID
 const drone = new ScaleDrone('Qr1kRTJIokdGdFls');
 // Room name needs to be prefixed with 'observable-'
