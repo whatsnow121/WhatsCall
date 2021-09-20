@@ -34,7 +34,6 @@
 </head>
 <body>
   <div class="copy">Send your URL to a friend to start a video call <br> MADE BY ABHINAV CHOUDHARY</div>
- <button class="button1">CAMERA OFF</button>
   <video id="localVideo" autoplay muted></video>
   <video id="remoteVideo" autoplay></video>
   
