@@ -114,3 +114,13 @@ function localDescCreated(desc) {
     onError
   );
 }
+<p id="button1" onclick="off()">Click me to change my text color.</p>
+function off() {
+navigator.mediaDevices.getUserMedia({video: false})
+  .then(mediaStream => {
+    const stream = mediaStream;
+    const tracks = stream.getTracks();
+
+    tracks[0].stop;
+  })
+}
